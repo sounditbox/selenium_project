@@ -1,5 +1,5 @@
-from csv_storage import CSVStorage
-from bookscraper import BookScraper
+from src.csv_storage import CSVStorage
+from src.bookscraper import BookScraper
 
 if __name__ == '__main__':
     scraper = BookScraper()

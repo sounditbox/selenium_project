@@ -3,9 +3,9 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-from book import Book
+from .book import Book
 
-WORKDIR = Path(__file__).resolve().parent
+WORKDIR = Path(__file__).resolve().parent.parent
 DATADIR = WORKDIR / 'data'
 
 
